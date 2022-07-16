@@ -1,0 +1,263 @@
+body {
+  background-color: #98D4BB;
+  font-family: 'VT323', monospace;
+}
+
+.clickable:hover{
+    cursor: pointer;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #01332f;
+  background: #9DE3F6;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.header-options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+a{
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pixelated{
+  image-rendering: pixelated;
+}
+
+.border-3d{
+  border-top: solid 5px white;
+  border-left: solid 5px white;
+  border-bottom: solid 5px #01332f;
+  border-right: solid 5px #01332f;
+}
+
+.border-3dbot{
+  border-bottom: solid 5px #01332f;
+}
+
+.border-3din{
+  border-bottom: solid 5px white;
+  border-right: solid 5px white;
+  border-top: solid 5px #01332f;
+  border-left: solid 5px #01332f;
+}
+
+.x-button{
+  background-color: #7d001e;
+}
+
+.x-button img{
+  height: 20px;
+  width: 20px;
+}
+.start{
+  background-color: #e5dbd9;
+  margin:5px;
+  margin-left: 10px;
+  margin-right: 0px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.taskbar{
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 40px;
+}
+
+.desktop-items{
+  display: flex;
+  flex-direction: row;
+}
+
+.desktop-icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.desktop-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.desktop-icon img{
+  width: 150px;
+  height: 150px;
+}
+
+.desktop-icon p{
+  font-size: 40px;
+  margin: 0px;
+}
+
+.bot-pad{
+  padding-bottom: 20px;
+}
+
+.paint{
+  width: 30vh;
+  margin: 5vh;
+  align-self: start;
+}
+
+.paint-top{
+  display: flex;
+  flex-direction: column;
+}
+
+.paint-titlebar{
+  text-shadow: 10px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.paint-titlebar p {
+  margin: 0;
+  padding: 5px;
+}
+
+.titlebar-left{
+  display: flex;
+  flex-direction: row;
+}
+
+.titlebar-left img {
+  margin: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+.paint-menubar{
+  background-color: #e5dbd9;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.paint-menubar p{
+  padding-left: 15px;
+}
+
+.paint-mid{
+  display: flex;
+  flex-direction: row;
+  background-color: #e5dbd9;
+}
+
+.paint-tools{
+  margin: 5px;
+  background-color: inherit;
+}
+
+.paint-icon{
+  padding: 5px;
+}
+
+.paint-pad{
+  background-color: white;
+  padding: 15px;
+}
+
+.paint-pad p {
+  font-size: 24px;
+}
+
+
+.paint-bottom{
+  display: flex;
+  flex-direction: row;
+  background-color: #e5dbd9;
+}
+
+.paint-colorselected{
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+}
+
+.colorselected-up{
+  margin-top: 5px;
+  margin-left: 5px;
+  position: absolute;
+  z-index: 1;
+}
+
+.colorselected-low{
+  transform: translate(15px, 15px);
+  position: absolute;
+  z-index: 0;
+}
+
+.paint-palette{
+  display: flex;
+  flex-direction: column;
+  background-color: #e5dbd9;
+  justify-content: center;
+  margin: 5px;
+}
+
+.palette-direction{
+  display: flex;
+  flex-direction: row;
+}
+
+.palette-item{
+  width: 15px;
+  height: 15px;
+}
+
+.palette-seagreen{
+  background-color: #218b82;
+}
+
+.palette-lightblue{
+  background-color: #9ad9db;
+}
+
+.palette-gainsboro{
+  background-color: #e5dbd9‍;
+}
+
+.palette-darkseagreen{
+  background-color: #98d4bb;
+}
+
+.palette-pink{
+  background-color: #eb96aa;
+}
+
+.palette-blackgreen{
+  background-color: #01332f;
+}
+
+.spectrum-background {
+  background-image: linear-gradient(to right, #218B82, #EB96AA, #98D4BB);
+    /* background:
+        linear-gradient(#218B82, transparent),
+        linear-gradient(to top left, #EB96AA, transparent),
+        linear-gradient(to top right, #98D4BB, transparent);
+    background-blend-mode: screen; */
+}
