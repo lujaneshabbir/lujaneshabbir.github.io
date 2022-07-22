@@ -19,8 +19,7 @@ function currentTime() {
   // seconds = (seconds< 10) ? "0" + seconds: seconds;
 
   let time = hour + ":" + minutes + " " + period;
-
-
+  
   document.getElementById("clock").innerText = time;
   document.getElementById("clock").textContent = time;
 
