@@ -118,6 +118,10 @@ a{
   padding-bottom: 20px;
 }
 
+#contact-window{
+  display: none;
+}
+
 .contact{
   width: 25%;
   margin: 5%;
@@ -260,6 +264,8 @@ a{
 .paint-tools{
   margin: 5px;
   background-color: inherit;
+  display: flex;
+  flex-direction: column;
 }
 
 .paint-tools img{
