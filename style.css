@@ -118,6 +118,7 @@ a{
 }
 
 .paint{
+  min-width:;
   width: 30vw;
   margin: 5vw;
   align-self: start;
