@@ -65,6 +65,7 @@ a{
   height: 20px;
   width: 20px;
 }
+
 .start{
   background-color: #e5dbd9;
   margin:5px;
@@ -117,6 +118,79 @@ a{
   padding-bottom: 20px;
 }
 
+.contact{
+  width: 25%;
+  margin: 5%;
+  min-width: 400px;
+}
+
+.contact-top{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-titlebar{
+  text-shadow: 10px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-titlebar p {
+  margin: 0;
+  padding: 5px;
+}
+
+.contact-menubar{
+  background-color: #e5dbd9;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.contact-menubar p{
+  padding-left: 15px;
+}
+
+.contact-mid{
+  display: flex;
+  flex-direction: column;
+  background-color: #e5dbd9;
+}
+
+.contact-form-item{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-right: 100px;
+  margin: 3px;
+
+}
+
+.contact-form-item label{
+  width: 30%;
+  margin: 5px;
+}
+
+.contact-form-item input{
+  width: 100%;
+  margin-right: 10px;
+}
+
+
+.contact-bot{
+  display: flex;
+  justify-content: center;
+  background-color: #e5dbd9;  
+}
+
+.contact-body{
+  background-color: white;
+  width: 95%;
+  height: 100%;
+}
+
 .paint{
   width: 25%;
   margin: 5%;
@@ -136,6 +210,7 @@ a{
   flex-direction: row;
   justify-content: space-between;
 }
+
 .paint-titlebar p {
   margin: 0;
   padding: 5px;
@@ -156,9 +231,9 @@ a{
   background-color: #e5dbd9;
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
   justify-content: left;
 }
+
 .paint-menubar p{
   padding-left: 15px;
 }
@@ -187,7 +262,6 @@ a{
 
 .paint-pad p {
   font-size: 24px;
-
 }
 
 

@@ -14,8 +14,9 @@
 
   <body class="">
 
-    <script src="index.js"></script>
     <script src="clock.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 
 
     <div class="desktop-items">
@@ -28,9 +29,9 @@
           <img src="https://cdn.discordapp.com/attachments/895531439028850690/997486154087678022/about.png" class="pixelated bot-pad" alt="">
           <p>About</p>
         </div>
-        <div class="clickable desktop-icon">
+        <div id="contact-button" class="clickable desktop-icon">
           <img src="https://cdn.discordapp.com/attachments/895531439028850690/997415402533564426/contact.png" class="pixelated" alt="">
-          <p>Contact</p>
+          <p >Contact</p>
         </div>
         <div class="clickable desktop-icon">
           <img src="https://cdn.discordapp.com/attachments/895531439028850690/997370504694476891/folder1.png" class="pixelated" alt="">
@@ -104,9 +105,9 @@
         </div>
       </div>
 
-      <div class="paint border-3d">
-        <div class="paint-top">
-          <div class="paint-titlebar spectrum-background border-3dbot">
+      <div class="contact border-3d">
+        <div class="contact-top">
+          <div class="contact-titlebar spectrum-background border-3dbot">
             <div class="titlebar-left">
               <div class="">
                 <img src="https://cdn.discordapp.com/attachments/895531439028850690/997395606945398825/logo_rose2.png" class="pixelated" alt="">
@@ -117,20 +118,40 @@
             </div>
             <div class="x-button border-3d">
               <img src="https://flexitauctions.com/wp-content/uploads/2019/01/white-x-png-2.png" alt="">
-                </div>
-              </div>
-              <div class="paint-menubar">
+            </div>
+          </div>
+          <div class="contact-menubar">
                 <p><u>F</u>ile</p>
                 <p><u>E</u>dit</p>
                 <p><u>V</u>iew</p>
-                <p><u>I</u>mage</p>
-                <p><u>C</u>olours</p>
+                <p><u>I</u>nsert</p>
+                <p><u>F</u>ormat</p>
+                <p><u>T</u>ools</p>
+                <p><u>M</u>essage</p>
                 <p><u>H</u>elp</p>
               </div>
-            </div>
-            </div>
+        </div>
+        <div class="contact-mid">
+          <div class="contact-form-item">
+            <label for="To">To:</label>
+            <input type="text" class="border-3din" name="To" value="lujaneshabbir@gmail.com">
+          </div>
+          <div class="contact-form-item">
+            <label for="From">From:</label>
+            <input type="text" class="border-3din" name="From" value="you@yourcompany.hiringlujane.com">
+          </div>
+          <div class="contact-form-item">
+            <label for="Subject">Subject:</label>
+            <input type="text" class="border-3din" name="Subject" value="Lujane would make an amazing intern">
           </div>
         </div>
+        <div class="contact-bot">
+          <div class="contact-body border-3din">
+            <p>Email: lujane@shabbir.com</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   </body>
