@@ -7,7 +7,7 @@ body {
     cursor: pointer;
 }
 
-header {
+footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -122,6 +122,7 @@ a{
   width: 25%;
   margin: 5%;
   min-width: 400px;
+  height: fit-content;
 }
 
 .contact-top{
@@ -182,13 +183,25 @@ a{
 .contact-bot{
   display: flex;
   justify-content: center;
-  background-color: #e5dbd9;  
+  background-color: #e5dbd9;
 }
 
 .contact-body{
   background-color: white;
   width: 95%;
   height: 100%;
+  padding: 10px;
+  margin: 5px;
+}
+
+.contact-body p{
+  margin: 10px;
+  font-size: 25px;
+}
+
+.contact-body a{
+  color: #ec94ac;
+  text-decoration: underline;
 }
 
 .paint{
@@ -247,6 +260,11 @@ a{
 .paint-tools{
   margin: 5px;
   background-color: inherit;
+}
+
+.paint-tools img{
+  width: 30px;
+  height: 30px;
 }
 
 .paint-icon{
@@ -324,6 +342,10 @@ a{
 
 .palette-pink{
   background-color: #eb96aa;
+}
+
+.palette-main-pink{
+  background-color: #ec94ac;
 }
 
 .palette-blackgreen{
