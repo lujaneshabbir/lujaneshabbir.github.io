@@ -2,6 +2,11 @@ $(document).ready(() => {
   $('#contact-icon').click(function(){
     $("#contact-window").show(1000);
   })
+  
+  $('#work-icon').click(function(){
+    $("#work-window").show(1000);
+  })
+
   $('.paint-tools img').click(function(){
     $('.paint-tools img').removeClass('border-3din');
     $('.paint-tools img').addClass('border-3d');

@@ -100,17 +100,17 @@ a{
   flex-direction: column;
   align-items: center;
   margin: 20px;
-  width: 200px;
-  height: 200px;
+  width: auto;
+  height: 25%;
 }
 
 .desktop-icon img{
-  width: 150px;
-  height: 150px;
+  width: auto;
+  height: 100%;
 }
 
 .desktop-icon p{
-  font-size: 40px;
+  font-size: 30px;
   margin: 0px;
 }
 
@@ -132,30 +132,6 @@ a{
 .contact-top{
   display: flex;
   flex-direction: column;
-}
-
-.contact-titlebar{
-  text-shadow: 10px;
-  font-size: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.contact-titlebar p {
-  margin: 0;
-  padding: 5px;
-}
-
-.contact-menubar{
-  background-color: #e5dbd9;
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-}
-
-.contact-menubar p{
-  padding-left: 15px;
 }
 
 .contact-mid{
@@ -190,28 +166,55 @@ a{
   background-color: #e5dbd9;
 }
 
-.contact-body{
+.pad {
   background-color: white;
   width: 95%;
-  height: 100%;
+  height: 100%; 
   padding: 10px;
   margin: 5px;
 }
 
-.contact-body p{
+.pad p{
   margin: 10px;
   font-size: 25px;
 }
 
-.contact-body a{
+.pad a{
   color: #ec94ac;
   text-decoration: underline;
 }
 
+.work {
+  margin: 5%;
+  min-width: 500px;
+  height: fit-content;
+}
+
+.work-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-mid {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5dbd9;
+}
+
+.work-word-icons {
+  background-color: #01332f;
+}
+.work-bot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e5dbd9;
+}
+
 .paint{
-  min-width:;
-  width: 30vw;
-  margin: 5vw;
+  width: 50%;
+  height: 100%;
+  min-width: 300px;
   align-self: start;
 }
 
@@ -220,7 +223,7 @@ a{
   flex-direction: column;
 }
 
-.paint-titlebar{
+.titlebar{
   text-shadow: 10px;
   font-size: 30px;
   display: flex;
@@ -228,7 +231,7 @@ a{
   justify-content: space-between;
 }
 
-.paint-titlebar p {
+.titlebar p {
   margin: 0;
   padding: 5px;
 }
@@ -244,14 +247,14 @@ a{
   height: 25px;
 }
 
-.paint-menubar{
+.menubar{
   background-color: #e5dbd9;
   display: flex;
   flex-direction: row;
   justify-content: left;
 }
 
-.paint-menubar p{
+.menubar p{
   padding-left: 15px;
 }
 
@@ -277,7 +280,7 @@ a{
   padding: 5px;
 }
 
-.paint-pad{
+/*.paint-pad{
   background-color: white;
   padding: 15px;
 }
@@ -285,7 +288,7 @@ a{
 .paint-pad p {
   font-size: 24px;
 }
-
+*/
 
 .paint-bottom{
   display: flex;
