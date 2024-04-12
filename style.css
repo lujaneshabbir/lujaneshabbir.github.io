@@ -18,6 +18,7 @@ footer {
   bottom: 0;
   right: 0;
   width: 100%;
+  z-index: 2;
 }
 
 .header-options{
@@ -209,7 +210,6 @@ a{
 }
 
 .paint{
-  min-width:;
   width: 30vw;
   margin: 5vw;
   align-self: start;
@@ -280,6 +280,7 @@ a{
 .paint-pad{
   background-color: white;
   padding: 15px;
+  min-width: 250px;
 }
 
 .paint-pad p {
